@@ -47,7 +47,7 @@ struct nand_flash_dev nand_flash_ids[] = {
 	{"W29N02KVSIAF 2G 3.3V 8-bit",
 		{ .id = {0xef, 0xda, 0x10, 0x95, 0x06} },
 		  SZ_2K, SZ_256, SZ_128K, 0, 5, 128,
-		  NAND_ECC_INFO(4, SZ_512), 0 },
+		  NAND_ECC_INFO(8, SZ_512), 0 },
 	{"S34ML02G300TFI00 2G 3.3V 8-bit",
 		{ .id = {0x01, 0xda, 0x00, 0x95, 0x46} },
 		  SZ_2K, SZ_256, SZ_128K, 0, 5, 128,
